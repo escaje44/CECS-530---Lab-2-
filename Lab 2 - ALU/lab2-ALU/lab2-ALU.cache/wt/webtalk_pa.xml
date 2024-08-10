@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Aug 26 19:02:42 2021">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d4236c83ad7648f5820dee8aad878172" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="5" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="4" type="JavaHandler"/>
+<property name="SetSourceEnabled" value="4" type="JavaHandler"/>
+<property name="ShowView" value="2" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="12" type="JavaHandler"/>
+<property name="ViewTaskSimulation" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfigurationAs" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="APPLY, Apply" value="5" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 138, 269" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 138, 279" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 163, 58" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 174, 144" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 190, 142" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 231, 231" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 266, 235" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 303, 232" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 307, 233" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 310, 231" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 315, 107" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 316, 59" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 330, 231" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 337, 217" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 343, 145" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 346, 148, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 38, 131, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 40, 95, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 42, 167, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 43, 114, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 432, 86" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 44, 194, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 44, 233, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 44, 63, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 455, 195" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 456, 127" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 518, 166" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 590, 92" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU-tb.v, 80, 195" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU.v, 146, 40" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU.v, 173, 97" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU.v, 204, 145" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU.v, 328, 285" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 1, 143, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 1, 159, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 103, 179" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 106, 179, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 107, 46" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 118, 62" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 124, 168, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 124, 178, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 137, 167" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 138, 195" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 140, 111" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 142, 108" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 145, 191" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 149, 179" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 150, 114" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 152, 116" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 154, 139" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 155, 118" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 250, 263" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 255, 263" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 264, 197" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 276, 246" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 312, 91" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 342, 149" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 35, 232, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 373, 247" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 378, 250" value="2" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 38, 91" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 472, 248" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 478, 243" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 479, 239" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 481, 252, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 491, 242" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 491, 346" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 493, 258" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 493, 262" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 495, 279" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 495, 316" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 502, 234" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 505, 357" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 510, 143" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 511, 170" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 524, 226" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 57, 296" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 577, 214" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 67, 231" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 67, 280" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 673, 227" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 688, 247" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 69, 249, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 70, 177" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 70, 212, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 70, 218" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 71, 247, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 71, 263" value="2" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 73, 270" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control-tb.v, 77, 179" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 115, 61" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 165, 386, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 186, 379" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 188, 109" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 2, 177" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 266, 267" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 6, 165" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALU_control.v, 98, 37" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 0, 166" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 102, 215" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 108, 216" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 117, 245" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 122, 146" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 126, 223" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 127, 210" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 127, 95" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 129, 207, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 130, 175, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 137, 46" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 143, 98" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 144, 400" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 145, 63" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 148, 95" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 149, 297" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 150, 211" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 153, 68" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 157, 252" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 160, 391" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 163, 373" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 166, 381" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 19, 315" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 2, 93, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 200, 107" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 210, 75, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 216, 229" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 217, 80" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 228, 290" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 23, 147, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 284, 76" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 285, 79" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 287, 176" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 287, 95" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 288, 143" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 288, 217" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 296, 95" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 300, 77" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 307, 276" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 31, 148" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 311, 343" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 326, 185" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 339, 363" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 354, 51" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 364, 38" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 418, 77, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 50, 231" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 52, 316" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 54, 250" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 59, 248" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 6, 365, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 7, 260, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 73, 283, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 73, 343" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 8, 215, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 80, 149" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 82, 286" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 88, 188" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 97, 111" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 98, 94" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl.v, 98, 99" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 102, 295" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 102, 332" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 105, 331" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 106, 299" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 108, 279" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 109, 301" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 122, 342" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 122, 351" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 130, 233" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 130, 235" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 130, 247" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 130, 266" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 130, 280" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 130, 287" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 130, 97" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 132, 320" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 134, 164" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 134, 217" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 134, 303" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 135, 301" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 136, 264" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 137, 268" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 145, 296" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 146, 311" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 149, 284" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 150, 276" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 154, 315" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 162, 176" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 173, 282" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 178, 278" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 196, 334" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 221, 293" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 329, 326" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 334, 350" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 350, 61" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 354, 54" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 363, 99" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 370, 243" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 376, 340" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 40, 283" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 40, 283, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 414, 236" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 42, 298" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 42, 298, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 422, 197" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 422, 211" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 422, 297" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 422, 90" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 424, 351" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 425, 357" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 429, 91" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 436, 229" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 46, 212" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 463, 115" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 473, 230" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 486, 275" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 494, 176" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 498, 257" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 50, 226" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 505, 300" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 51, 294" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 51, 350" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 511, 263" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 513, 224" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 517, 307" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 519, 84" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 520, 189" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 53, 65, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 530, 294" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 533, 297" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 535, 139" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 54, 195, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 54, 280" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 54, 303" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 54, 315, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 54, 332" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 54, 94, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 54, 97, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 544, 95" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 55, 107" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 55, 270" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 55, 308" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 55, 314" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 55, 331" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 55, 350" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 56, 255" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 56, 281, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 56, 316" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 57, 331, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 57, 352" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 58, 115" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 58, 269, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 59, 297, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 62, 347" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 632, 80" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 660, 275" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 670, 127" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 670, 163" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 680, 130" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 69, 350" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 69, 350, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 70, 316" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 70, 316, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 70, 317" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 70, 349" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 72, 317" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 74, 339" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 74, 339, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 82, 295" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 89, 215, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 89, 230, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 89, 299, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 90, 283, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 90, 319, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 91, 266, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 91, 280, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 92, 240, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 94, 163, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 96, 351" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 97, 331" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 98, 303" value="1" type="GuiResourceData"/>
+<property name="LEGv8ALUwithControl_tb.v, 98, 313" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="OK, OK" value="5" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="9" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, Open Messages View" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, LEGv8ALUwithControl_tb" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_PROJECT_SETTINGS, Project Settings..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, simulation_relaunch" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN, Run Simulation" value="9" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="12" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_SETTINGS, Simulation Settings..." value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_TASK, Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SRC_DISABLE, Disable File" value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SRC_ENABLE, Enable File" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, LEGv8ALU (LEGv8ALU.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources, LEGv8ALU-tb.v], 7, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources, LEGv8ALU-tb.v], 7, false, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources, LEGv8ALU_control-tb.v], 12, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources, LEGv8ALU_control-tb.v], 12, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources, LEGv8ALU_control-tb.v], 8, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources, LEGv8ALU_control-tb.v], 8, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources], 11" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, LEGv8ALU (LEGv8ALU.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, LEGv8ALU_control_tb (LEGv8ALU_control-tb.v" value="9" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, LEGv8ALU_tb (LEGv8ALU-tb.v" value="10" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, LEGv8ALUwithControl (LEGv8ALUwithControl.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, LEGv8ALUwithControl_tb (LEGv8ALUwithControl_tb.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="12" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.xpr, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="10" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FLOW, Flow" value="12" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_HELP, Help" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_REPORT, Report" value="5" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_TOOLS, Tools" value="10" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_VIEW, View" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1, [VRFC 10-1047] module instantiation should have an instance name [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALU_control-tb.v:35]. ], 28, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1, [VRFC 10-1047] module instantiation should have an instance name [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:36]. ], 15, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1, [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port ALU_operation [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sources_1/new/LEGv8ALUwithControl.v:46]. ], 23, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1, [VRFC 10-426] cannot find port ALUOp on this module [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sources_1/new/LEGv8ALUwithControl.v:46]. ], 15, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1], 14" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation, sim_1], 27" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Simulation], 13" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, launch_simulation. , [USF-XSim 62] 'elaborate' step failed with error(s" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, launch_simulation. , [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ], 22, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="7" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, Simulation, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="3" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="9" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="11" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_YES, Yes" value="3" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="15" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, ALU_op" value="1" type="GuiResourceData"/>
+<property name="RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, Don't show this dialog again, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1, 112" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1016, -76" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 104, 64" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 116, -8" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 154, 29" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 165, 36" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 167, 62" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 167, 63" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 178, 87" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 184, -38" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 225, 98" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 239, 56" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 242, 123" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 250, 59" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 266, 34" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 277, 73" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 35, 40" value="2" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 37, -2" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 37, 39" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 374, 14" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 39, -6" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 457, 122" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 472, 75" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 514, -19" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 524, -14" value="2" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 525, -14" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 53, -15" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 545, 52" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 551, 115" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 623, 55" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 631, 2" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 631, 80" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 636, 58" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 64, 41" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 642, 60" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 66, -3" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 66, 42" value="2" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 67, 38" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 71, -6" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 71, 40" value="3" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 71, 40, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 713, 94" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 72, -2" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 72, -2, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 72, -2, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 724, 51" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 725, 236, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 729, 38" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 792, 96" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 84, -10" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 844, 118" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 985, 93" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 99, 80" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, Customize Commands" value="2" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION_AS, Save Waveform Configuration As..." value="2" type="GuiResourceData"/>
+<property name="Simulation, Simulation" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="3" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="2" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

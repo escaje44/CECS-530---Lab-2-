@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sources_1/new/LEGv8ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEGv8ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sources_1/new/LEGv8ALU_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEGv8ALU_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sources_1/new/LEGv8ALUwithControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEGv8ALUwithControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEGv8ALUwithControl_tb
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:66]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:67]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:70]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:71]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:74]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:75]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:78]
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.srcs/sim_1/new/LEGv8ALUwithControl_tb.v:79]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrjdo/Documents/School Files/Fall 2021/CECS 530/Labs/Vivado - Lab Files/Lab 2 - ALU/lab2-ALU/lab2-ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
